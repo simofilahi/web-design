@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="This is my website descriptioin">
+    <meta name="Keywords" content="web developement, web design">
+
+    <title>HOME</title>
+</head>
+<body>
+    <!-- Headings -->
+     <h1>Heading 1</h1>
+     <h2>Heading 2</h2>
+     <h3>Heading 3</h3>
+     <h4>Heading 4</h4>
+     <h5>Heading 5</h5>
+     <h6>Heading 6</h6>
+
+     <!-- Paragraph -->
+     <p>
+         <em>Hello</em> 
+        <br> 
+        <br>
+        <strong>World</strong>
+         <hr>
+        <del>This my webiste</del>
+    </p>
+
+    <!-- External link -->
+    <p>
+     <a href="http://google.com" target="_blank">click for google</a>
+    </p>
+
+    <!-- Internal link -->
+    <p>
+        <a href="about.html">About</a>
+     </p>
+
+     <!-- Local image -->
+     <p>
+         <img src="animal-animal-photography-canidae-45242.jpg" alt="My images" width="200px" height="200px">
+     </p>
+
+     <!-- Remote image -->
+     <p>
+         <img src="https://source.unsplash.com/WLUHO9A_xik/1200x700" alt="My image 2">
+     </p>
+
+     <!-- Unordered lists -->
+     <ul>
+         <li>Item 1</li>
+         <li>Item 2</li>
+         <li>Item 3</li>
+         <li>Item 4</li>
+     </ul>
+
+     <!-- Ordered lists -->
+     <ol>
+        <li>Item 1</li>
+        <li>Item 2
+            <ol>
+                <li>Nested Item 1</li>
+                <li>Nested Item 2</li>
+            </ol>
+        </li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ol>
+
+    <!-- Tables -->
+    <table style="width : 600px"> 
+        <thead>
+            <tr>
+                 <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <t_body>
+            <tr>
+                <td>john</td>
+                <td>doe</td>
+                <td>jdoe@gmail.com</td>
+            </tr>
+            <tr>
+                    <td>kate</td>
+                    <td>smith</td>
+                    <td>kate@gmail.com</td>
+            </tr>
+            <tr>
+                <td>jeff</td>
+                <td>wilson</td>
+                <td>jeff@gmail.com</td>
+            </tr>
+        </t_body>
+    </table>
+
+    <!-- forms_input -->
+    <from action="process.php">
+        <div>
+            <label for="name">Name</label>
+            <br>
+            <input type="text" id="name" name="name">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <br>
+            <input type="email" name="name" id="email" placeholder="Enter an email"> 
+        </div>
+        <div>
+            <label for="message">Message</label>
+            <br>
+            <textarea name="message" id="message" cols="50" rows="5"></textarea>
+        </div>
+        <div>
+            <label for="sex">sex</label>
+            <select name="sex" id="sex">
+                <option value="male">Male</option>
+                <option value="female" selected>Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <br>
+            <input type="number" name="age" id="age">
+        </div>
+        <div>
+            <label for="birthdate">Birthdate</label>
+            <br>
+            <input type="date" name="birthdate" id="birthdate">
+        </div>
+        <div>
+            <label for="membership">Membership</label>
+            <input type="radio" name="membership" id="membership" value="simple">Simple
+            <input type="radio" name="membership" id="membership" value="standard" checked>Standard
+            <input type="radio" name="membership" id="membership" value="super">Super
+        </div>
+        <div>
+                <label for="membership">Membership</label>
+                <input type="checkbox" name="membership" id="membership" value="simple">Simple
+                <input type="checkbox" name="membership" id="membership" value="standard" checked>Standard
+                <input type="checkbox" name="membership" id="membership" value="super">Super
+        </div>
+    </from>
+
+</body>
+</html>
