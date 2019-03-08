@@ -8,6 +8,18 @@
     <meta name="Keywords" content="web developement, web design">
 
     <title>HOME</title>
+    <style>
+        .card  {
+            border: 1px solid #ccc;
+            background: #f4f4f4;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+        .enhance {
+            color: yellow;
+            background: black;
+        }
+    </style>
 </head>
 <body>
     <!-- Headings -->
@@ -159,6 +171,59 @@
         <!-- botton reset -->
         <button type="reset" value="Reset">Reset</button>
     </from>
-
+    <!-- Block_inline -->
+    <p style="border :2px green solid">London is the capital city of England. <br>
+        It is the most populous <strong>city</strong> in the United Kingdom, <br>
+        with a metropolitan area of over 13 million inhabitants.<br>
+    </p>
+    <!-- divs and spans, Classes and ids -->
+    <!-- divs -->
+    <div id="main-header" class="card">
+        <h1>My website</h1>
+        <p>A site about me</p>
+    </div>
+    <ul id="main-nav" class="card">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <div id="about" class="card">
+         <h3>About</h3>
+         <p>mohmaed filahi &#34; <span class="enhance">who behind this is awesome </span> &nbsp; siteweb </p>
+    </div>
+    <div id="contact" class="card">
+        <h3>Contact me</h3>
+        <ul>
+            <li>Address: xxxxx</li>
+            <li>Phone: xxxxx</li>
+            <li>Email: xx@x.x</li>
+        </ul>
+    </div>
+    <div id="footer">
+        <p>Copyright &copy; 2019</p>
+    </div> 
+    <!-- entities ------------------------------------>
+         <!-- Non breaking space -->
+        <p>hello, my name is &nbsp;  &nbsp; mohamed</p>
+        <!-- Greater than and less than -->
+        <p> 5 &gt; 2</p>
+        <p> 5 &#62; 2</p>
+        <p>2 &lt; 5</p>
+        <p>2 &#60; 5</p>
+        <!-- Copyright -->
+        <p>&copy;</p>
+        <p>&reg;</p>
+        <!-- Currency -->
+        <p>&cent;</p>
+        <p>&euro;</p>
+        <p>&yen;</p>
+        <!-- Suits -->
+        <p>&spades;</p>
+        <p>&clubs;</p>
+        <!-- coputer code -->
+        <code>
+            &lt;?php echo 'hello' ?&gt;
+        </code>
+        <p>Save the file by pressing <kbd>CTRL + S</kbd></p>
 </body>
 </html>
